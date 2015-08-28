@@ -1,0 +1,22 @@
+﻿2014-12-26 v1.73
+解决mysql自定义端口无法连接的问题
+
+2009-08-18	更新
+1、增加1条Flags.txt数据；
+2、增加5条AllowableClass.txt数据。
+
+2009-08-16	更新
+1、更新部分数据，支持dbc v3.2.0.10192；
+2、新增12个.txt文件。
+	(BagFamily.txt、
+	Faction.txt、
+	FoodType.txt、
+	Holiday.txt、
+	ItemLimitCategory.txt、
+	ItemSet.txt、
+	Languages.txt、
+	PageTextMaterial.txt、
+	RandomProperty.txt、
+	RandomSuffix.txt、
+	subclass8.txt、
+	TotemCategory.txt)
