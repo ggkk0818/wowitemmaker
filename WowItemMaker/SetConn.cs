@@ -47,6 +47,7 @@ namespace WOWItemMaker
             MyInvoke mi = new MyInvoke(miGetDBList);
             try
             {
+                System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
                 MySqlConnection Conn = new MySqlConnection(strConn.ToString());
                 MySqlCommand setname = new MySqlCommand("set names 'gbk';", Conn);
                 MySqlDataAdapter adp = new MySqlDataAdapter("SHOW DATABASES;", Conn);
